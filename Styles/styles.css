@@ -1,7 +1,12 @@
-/* -----------DEFAULT-FONT------------------ */
-
+.roboto-condensed {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 
 /* -------------BODY-SECTION DESIGN--------------- */
+
 * {
     margin: 0;
     padding: 0;
@@ -28,7 +33,7 @@ nav ul li a {
     text-decoration: none;
 }
 
-/*---------------------------BANNER-CONTENT-----------------------*/
+/*---------------------------BANNER-CONTENT DESIGN-----------------------*/
 .hero {
     background-image: url('../assets/Hero-bg.png');
     text-align: center;
@@ -58,7 +63,7 @@ nav ul li a {
     opacity: 0.7;
 }
 
-/*-----------------BUTTON-PRIMARY---------------- */
+/*-----------------BUTTON-PRIMARY DESIGN---------------- */
 .btn-primary {
     background-color: rgb(255, 255, 255);
     color: rgb(13, 19, 33);
@@ -84,7 +89,7 @@ nav ul li a {
     margin: 50px 0px;
 }
 
-/*------------------BANNER-SECTION---------------------*/
+/*------------------BANNER-SECTION DESIGN---------------------*/
 .banner-content {
     padding: 100px 120px;
     border: 80px solid #f9f9f9;
@@ -114,7 +119,7 @@ nav ul li a {
     margin: 22px 0;
 }
 
-/* -------------CODER CONTENT----------------------*/
+/* -------------CODER CONTENT DESIGN----------------------*/
 .coder-content {
     display: flex;
     justify-content: space-between;
@@ -165,7 +170,7 @@ nav ul li a {
     margin-left: 50px;
 }
 
-/* --------------------THIS IS VIDEO SECTION-------------------- */
+/* --------------------THIS IS VIDEO SECTION DESIGN-------------------- */
 .inspairation {
     display: flex;
     flex-direction: column;
@@ -181,11 +186,11 @@ nav ul li a {
 
 .inspairation .inspairation-title h1 {
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 40px;
-font-weight: 800;
-line-height: 37px;
-margin: 25px 0;
+    font-family: Azeret Mono;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 37px;
+    margin: 25px 0;
 }
 
 .inspairation .inspairation-title p {
@@ -212,7 +217,7 @@ margin: 25px 0;
 }
 
 
-/* --------------------THIS IS DEV-SKILL SECTION DESIHN-------------------- */
+/* --------------------THIS IS DEV-SKILL SECTION DESIGN-------------------- */
 .dev-skill {
     margin: 110px 0;
 }
@@ -255,12 +260,7 @@ margin: 25px 0;
     height: 56px;
     margin: 15px 0;
 }
-/* .dev-skill-content .box-items {
-    border-radius: 16px;
-    padding: 40px;
-    background: rgba(255, 76, 30, 0.05);
-    margin: 0 25px;
-} */
+
 .dev-skill-content .box-one {
     border-radius: 16px;
     padding: 40px;
@@ -282,12 +282,12 @@ margin: 25px 0;
 
 .dev-skill-content .box-items h1 {
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 24px;
-font-weight: 800;
-line-height: 36px;
-text-align: left;
-margin: 15px 0;
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+    margin: 15px 0;
 }
 
 .dev-skill-content .box-items p {
@@ -313,7 +313,7 @@ margin: 15px 0;
     background: none;
 }
 
-/* --------------------THIS IS BACKEND-SKILL SECTION DESIHN-------------------- */
+/* --------------------BACKEND-SKILL SECTION DESIGN-------------------- */
 
 .backend-skill {
     padding: 0 120px;
@@ -325,11 +325,11 @@ margin: 15px 0;
 
 .backend-title h1 {
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 35px;
-font-weight: 800;
-line-height: 37px;
-margin: 24px 0px;
+    font-family: Azeret Mono;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 37px;
+    margin: 24px 0px;
 }
 
 .backend-title p {
@@ -380,7 +380,7 @@ margin: 24px 0px;
 }
 
 
-/* --------------------THIS IS SUPPORT-CONTENT SECTION DESIHN-------------------- */
+/* --------------------SUPPORT-CONTENT SECTION DESIGN-------------------- */
 .support {
     margin-bottom: 50px;
 }
@@ -430,23 +430,22 @@ margin: 24px 0px;
 .feedback-title .btn-sub {
     color: rgb(13, 19, 33);
     background-color: rgb(255, 255, 255);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 600;
-line-height: 23px;
-padding: 8px 12px;
-border-radius: 7px;
-border-style: none;
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    padding: 8px 12px;
+    border-radius: 7px;
+    border-style: none;
 }
 
-/* --------------------THIS IS FOOTER-SECTION DESIGN SECTION DESIHN-------------------- */
+/* --------------------FOOTER-SECTION DESIGN-------------------- */
 .foot-title {
     display: flex;
     justify-content: space-between;
     padding: 0 150px;
     border-radius: 16px;
-
-background: rgba(13, 19, 33, 0.03);
+    background: rgba(13, 19, 33, 0.03);
 }
 .foot-title h3 {
     color: rgb(13, 19, 33);
