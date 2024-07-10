@@ -362,14 +362,19 @@ margin: 24px 0px;
 
 /* --------------------THIS IS SUPPORT-CONTENT SECTION DESIHN-------------------- */
 .support {
+    margin-bottom: 50px;
 }
+
 .support-content {
     background-image: url('../assets/handshake.jpg');
     border-radius: 13px;
-    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
     margin: 0 120px;
     padding: 65px 45px;
     text-align: center;
+    background-position: center;
+    background-size: cover;
+    opacity: ;
 }
 
 .support-title {
@@ -377,24 +382,32 @@ margin: 24px 0px;
 }
 .support-title h1 {
     color: rgb(255, 255, 255);
-font-family: Azeret Mono;
-font-size: 32px;
-font-weight: 700;
-line-height: 36px;
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.support-title p {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin: 15px 0;
 }
 
 .feedback-title input {
     box-sizing: border-box;
-border: 1px solid rgba(13, 19, 33, 0.15);
-border-radius: 8px;
-
-background: rgb(255, 255, 255);
-padding: 13px 140px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 13px 140px;
+    margin: 15px 0;
 }
 
-.feedback-title input[type=text] {
-    text-align: start;
-}
+
 .feedback-title .btn-sub {
     color: rgb(13, 19, 33);
     background-color: rgb(255, 255, 255);
@@ -411,7 +424,10 @@ border-style: none;
 .foot-title {
     display: flex;
     justify-content: space-between;
-    padding: 35px 150px;
+    padding: 0 150px;
+    border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.03);
 }
 .foot-title h3 {
     color: rgb(13, 19, 33);
@@ -419,5 +435,14 @@ border-style: none;
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
-    margin: 24px 0;
+    margin: 30px 0;
+}
+
+.social-image {
+    letter-spacing: 20px;
+    padding: 20px 0;
+}
+
+.social-image img {
+    width: 30px;
 }
