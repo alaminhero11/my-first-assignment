@@ -1,8 +1,10 @@
-.azeret-mono-normal {
-  font-family: "Azeret Mono", monospace;
+.open-sans {
+  font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
+  font-weight: <weight>;
   font-style: normal;
-  font-weight: 800px;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 * {
@@ -71,8 +73,10 @@ nav ul li a {
     padding: 15px 18px;
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
+    box-sizing: border-box;
     opacity: 0.8;
 }
+
 .btn-contact {
     background-color: rgb(13, 19, 33);
     color: rgb(255, 255, 255);
@@ -408,7 +412,7 @@ border-radius: 7px;
 border-style: none;
 }
 
-/* FOOTER-SECTION DESIGN */
+/* --------------------THIS IS FOOTER-SECTION DESIGN SECTION DESIHN-------------------- */
 .foot-title {
     display: flex;
     justify-content: space-between;
@@ -416,9 +420,9 @@ border-style: none;
 }
 .foot-title h3 {
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 600;
-line-height: 23px;
-margin: 24px 0;
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    margin: 24px 0;
 }
