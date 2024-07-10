@@ -1,0 +1,424 @@
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 800px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* NAV STILES */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 170px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 28px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+/*--------------BANNER-CONTENT----------------*/
+.hero {
+    background-image: url('../assets/Hero-bg.png');
+    text-align: center;
+    padding-bottom: 50px;
+}
+.hero-image img {
+    width: 220px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.hero-content .hero-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 68px;
+    margin: 25px 0px;
+}
+
+.hero-content p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
+
+/*-----------------BUTTON-PRIMARY---------------- */
+.btn-primary {
+    background-color: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 17px;
+    line-height: 20px;
+    padding: 15px 18px;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+}
+.btn-contact {
+    background-color: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 17px;
+    line-height: 20px;
+    padding: 15px 18px;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    margin: 50px 0px;
+}
+
+/*------------------BANNER-SECTION---------------------*/
+.banner-content {
+    padding: 100px 120px;
+}
+
+.banner-content .banner-title {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.banner-content .banner-title h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-bottom: 20px;
+}
+
+.banner-content .banner-title p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin: 22px 0;
+}
+
+/* -------------CODER CONTENT----------------------*/
+.coder-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+}
+
+.coder-title {
+    max-width: 750px;
+}
+
+.coder-content h1 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 35px;
+}
+
+.coder-content p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 25px 0;
+}
+
+.coder-title .btn-coder {
+    background-color: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 17px;
+    line-height: 20px;
+    padding: 15px 18px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.8;
+    margin-top: 35px;
+}
+
+.modern-web {
+    display: flex;
+    justify-content: start;
+}
+
+.title-web {
+    margin-left: 50px;
+}
+
+/* --------------------THIS IS VIDEO SECTION-------------------- */
+.inspairation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 148px;
+    padding: 0 100px;
+}
+
+.inspairation .inspairation-title {
+    text-align: center;
+}
+
+.inspairation .inspairation-title h1 {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 40px;
+font-weight: 800;
+line-height: 37px;
+margin: 25px 0;
+}
+
+.inspairation .inspairation-title p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin: 25px 0;
+}
+
+.inspairation-video iframe {
+    width: 1130px;
+    height: 480px;
+    border-radius: 16px;
+}
+
+.inspairation-video  {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    padding: 25px;
+    border-radius: 16px;
+}
+
+
+/* --------------------THIS IS DEV-SKILL SECTION DESIHN-------------------- */
+.dev-skill {
+    margin: 110px 0;
+}
+
+.dev-skill-content {
+    padding: 0 120px;
+}
+
+.box-items-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 48px 0;
+}
+
+.dev-skill-title {
+    text-align: center;
+}
+
+.dev-skill-title h1 {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+}
+
+.dev-skill-title p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin: 25px 0;
+}
+
+.box-items img {
+    width: 56px;
+    height: 56px;
+    margin: 15px 0;
+}
+.dev-skill-content .box-items {
+    border-radius: 16px;
+    padding: 40px;
+    background: rgba(255, 76, 30, 0.05);
+    margin: 0 25px;
+}
+
+.dev-skill-content .box-items h1 {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+text-align: left;
+margin: 15px 0;
+}
+
+.dev-skill-content .box-items p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin: 25px 0;
+}
+
+.btn-dev-skill {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    border-style: none;
+    text-decoration-line: underline;
+    margin: 24px 0;
+    background: none;
+}
+
+/* --------------------THIS IS BACKEND-SKILL SECTION DESIHN-------------------- */
+
+.backend-skill {
+    padding: 0 120px;
+}
+
+.backend-title {
+    text-align: center;
+}
+
+.backend-title h1 {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 35px;
+font-weight: 800;
+line-height: 37px;
+margin: 24px 0px;
+}
+
+.backend-title p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin: 24px 0px;
+}
+
+.backend-box-title h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin: 16px 0;
+}
+
+.backend-box-title p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
+
+.backend-box {
+    display: flex;
+    justify-items: start;
+    padding: 35px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin: 24px 0;
+}
+
+.backend-box img {
+    margin: 40px 0;
+}
+
+.backend-box-title {
+    margin: 0 80px;
+}
+
+
+/* --------------------THIS IS SUPPORT-CONTENT SECTION DESIHN-------------------- */
+.support {
+}
+.support-content {
+    background-image: url('../assets/handshake.jpg');
+    border-radius: 13px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+    margin: 0 120px;
+    padding: 65px 45px;
+    text-align: center;
+}
+
+.support-title {
+    margin: 25px 0;
+}
+.support-title h1 {
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+}
+
+.feedback-title input {
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+padding: 13px 140px;
+}
+
+.feedback-title input[type=text] {
+    text-align: start;
+}
+.feedback-title .btn-sub {
+    color: rgb(13, 19, 33);
+    background-color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+padding: 8px 12px;
+border-radius: 7px;
+border-style: none;
+}
+
+/* FOOTER-SECTION DESIGN */
+.foot-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 150px;
+}
+.foot-title h3 {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+margin: 24px 0;
+}
