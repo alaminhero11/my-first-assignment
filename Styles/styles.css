@@ -1,18 +1,13 @@
-.open-sans {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
+/* -----------DEFAULT-FONT------------------ */
 
+
+/* -------------BODY-SECTION DESIGN--------------- */
 * {
     margin: 0;
     padding: 0;
 }
 
-/* NAV STILES */
+/* ---------------------NAV DESIGN-------------------- */
 nav {
     display: flex;
     align-items: center;
@@ -33,7 +28,7 @@ nav ul li a {
     text-decoration: none;
 }
 
-/*--------------BANNER-CONTENT----------------*/
+/*---------------------------BANNER-CONTENT-----------------------*/
 .hero {
     background-image: url('../assets/Hero-bg.png');
     text-align: center;
