@@ -385,8 +385,8 @@ nav ul li a {
     margin-bottom: 50px;
 }
 
-.support .support-content {
-    background: rgba(0, 0, 0, 0.2)url(/assets/handshake.jpg);
+.support-content {
+    background-image: url('../assets/handshake.jpg');
     border-radius: 13px;
     border-radius: 16px;
     margin: 0 120px;
