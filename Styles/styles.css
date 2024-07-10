@@ -231,11 +231,11 @@ margin: 25px 0;
 }
 
 .dev-skill-title h1 {
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 32px;
-font-weight: 800;
-line-height: 37px;
+    color: rgb(0, 0, 0);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
 }
 
 .dev-skill-title p {
@@ -253,10 +253,28 @@ line-height: 37px;
     height: 56px;
     margin: 15px 0;
 }
-.dev-skill-content .box-items {
+/* .dev-skill-content .box-items {
     border-radius: 16px;
     padding: 40px;
     background: rgba(255, 76, 30, 0.05);
+    margin: 0 25px;
+} */
+.dev-skill-content .box-one {
+    border-radius: 16px;
+    padding: 40px;
+    background: rgba(255, 76, 30, 0.05);
+    margin: 0 25px;
+}
+.dev-skill-content .box-two {
+    border-radius: 16px;
+    padding: 40px;
+    background: rgba(0, 76, 232, 0.05);
+    margin: 0 25px;
+}
+.dev-skill-content .box-three {
+    border-radius: 16px;
+    padding: 40px;
+    background: rgba(255, 223, 0, 0.05);
     margin: 0 25px;
 }
 
